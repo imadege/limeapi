@@ -43,7 +43,7 @@ python-dateutil==2.8.1
 python-decouple==3.0
 pytz==2017.2
 PyYAML==3.12
-requests==2.18.4
+requests==2.20.0
 six==1.10.0
 tablib==0.12.1
 twilio==6.6.1
