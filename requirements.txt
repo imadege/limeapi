@@ -48,7 +48,7 @@ six==1.10.0
 tablib==0.12.1
 twilio==6.6.1
 unicodecsv==0.14.1
-urllib3==1.22
+urllib3==1.24.2
 uuid==1.30
 whitenoise==5.0.1
 xlrd==1.1.0
