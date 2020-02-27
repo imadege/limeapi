@@ -45,7 +45,6 @@ pytz==2017.2
 PyYAML==3.12
 requests==2.18.4
 six==1.10.0
-sms==0.1
 tablib==0.12.1
 twilio==6.6.1
 unicodecsv==0.14.1
