@@ -1,0 +1,9 @@
+*.pyc
+**/migrations/
+*/migrations/
+**/__pycache__
+*/__pycache__
+.env
+.idea/
+**/downloads/
+.DS_store
