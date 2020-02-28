@@ -1,3 +1,3 @@
-release: python manage.py makemigrations
-release: python manage.py migrate
+release: python manage.py makemigrations  && pythom manage.py migrate
+
 web: gunicorn config.wsgi:application
