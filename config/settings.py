@@ -90,8 +90,6 @@ WSGI_APPLICATION = 'config.wsgi.application'
     }
 }"""
 
-STATIC_ROOT = 'static'
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -145,3 +143,11 @@ REST_FRAMEWORK = {
 }
 
 DISABLE_COLLECTSTATIC = 1
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
