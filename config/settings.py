@@ -90,6 +90,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
     }
 }"""
 
+STATIC_ROOT = 'static'
 
 DATABASES = {
     'default': {
